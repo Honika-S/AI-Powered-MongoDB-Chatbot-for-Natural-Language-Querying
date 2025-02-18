@@ -1,0 +1,23 @@
+# Core Dependencies
+langchain==0.1.15          # LangChain framework for LLM-based agents
+chainlit==1.0.374         # Chainlit for chatbot UI
+pymongo==4.6.1            # MongoDB driver for Python
+ollama==0.1.10            # Ollama API client for LLM interaction
+sentence-transformers==2.2.2 # Sentence embeddings for NLP tasks
+
+# LLM and NLP Utilities
+tiktoken==0.7.0           # Tokenization for LLMs
+openai==1.7.2             # OpenAI API (if using for embeddings)
+
+# Data Handling & Processing
+numpy==1.26.3             # Numerical computations
+pandas==2.1.3             # Data processing
+
+# Backend Frameworks & Tooling
+fastapi==0.110.0          # API backend (if needed)
+uvicorn==0.27.0           # ASGI server for FastAPI
+
+# Optional: Debugging & Performance
+python-dotenv==1.0.1      # Environment variable management
+loguru==0.7.2             # Enhanced logging
+
